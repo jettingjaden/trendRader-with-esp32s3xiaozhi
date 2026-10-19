@@ -1,0 +1,3 @@
+#!/bin/bash
+export MCP_ENDPOINT="wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjU3NjEyMSwiYWdlbnRJZCI6ODc1MDU3LCJlbmRwb2ludElkIjoiYWdlbnRfODc1MDU3IiwicHVycG9zZSI6Im1jcC1lbmRwb2ludCIsImlhdCI6MTc3NjQ5NjgyMSwiZXhwIjoxODA4MDU0NDIxfQ.xZNRFBmD9IlRMfRzmOBmpGSpHj8I_sl7yLxpWPc1QcTzyTBiYp-6beIR2Jx9oOuPodmLmi7UEM5I7Js1EbBg2A"
+python mcp_pipe.py python -m mcp_server.server --transport http --host 127.0.0.1 --port 3333
